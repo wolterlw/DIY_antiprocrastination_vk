@@ -74,6 +74,7 @@ def send_message(uid, message):
 if __name__ == '__main__':
 
 	load_stuff(argv[1])
+	#add path to your local file of configuration which stores {"token": "<your access token>"}
 	
 	inst = "start"
 
